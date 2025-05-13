@@ -49,12 +49,12 @@ Create Key Initiative
 
         <div class="form-group">
             <label for="description">Description *</label>
-            <textarea name="description" class="form-control" rows="5" required>{{ old('description') }}</textarea>
+            <textarea name="description" class="form-control summernote" rows="5" required>{{ old('description') }}</textarea>
         </div>
 
         <div class="form-group">
             <label for="impact">Impact</label>
-            <textarea name="impact" class="form-control" rows="4" id="summernote">{{ old('impact') }}</textarea>
+            <textarea name="impact" class="form-control summernote" rows="4" >{{ old('impact') }}</textarea>
         </div>
 
        <div class="row">
@@ -91,7 +91,7 @@ Create Key Initiative
   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
         <script>
-            $('#summernote').summernote({
+            $('.summernote').summernote({
                 placeholder: 'Please ensure to paste from MS word, Notepad. Avoid pasting directly from other websites.',
                 tabsize: 2,
                 height: 300,
