@@ -112,7 +112,7 @@
 				<!-- *************************************
 				*********** Begin page content *********** 
 				************************************** -->
-				<div id="tt-page-content">
+				{{-- <div id="tt-page-content">
 
 					<div class="tt-section no-padding-bottom padding-bottom-xlg-40">
 						<div class="tt-section-inner tt-wrap">
@@ -151,51 +151,34 @@
 							</div> <!-- /.tt-row -->
 
 						</div> <!-- /.tt-section-inner -->
-					</div>
+				</div> --}}
 					<!-- End tt-section -->
 
+<div id="tt-page-content">
 
-					{{-- <div class="tt-section padding-top-xlg-120">
-						<div class="tt-section-inner tt-wrap">
 
-							<div class="tt-row margin-bottom-40">
-								<div class="tt-col-xl-8">
+					<div class="tt-section padding-bottom-xlg-120">
+						<div class="tt-section-inner tt-wrap max-width-1000">
 
-									
-									<div class="tt-heading tt-heading-xxxlg no-margin">
-										<h3 class="tt-heading-subtitle tt-text-reveal">Contact</h3>
-										<h2 class="tt-heading-title tt-text-reveal">Let's Work<br> Together</h2> <!-- You can use <br> to break a text line if needed -->
-									</div>
-									<!-- End tt-Heading -->
-
-								</div> <!-- /.tt-col -->
 							
-								<div class="tt-col-xl-4 tt-align-self-end tt-xl-column-reverse margin-top-40">
+							{{-- <div class="tt-heading tt-heading-lg">
+								<h3 class="tt-heading-subtitle tt-text-reveal">Subtitle</h3>
+								<h2 class="tt-heading-title tt-text-reveal">Your Content</h2> <!-- You can use <br> to break a text line if needed -->
+							</div> --}}
+							<!-- End tt-Heading -->
 
-									<div class="max-width-600 margin-bottom-10 tt-text-uppercase text-pretty tt-text-reveal">
-										Feeling good about a new project? Write me what's in your mind<br> and let's talk about it!
-									</div>
+							 {!!$team->about!!}
 
-									<!-- Begin big round button 
-									============================ -->
-									<div class="tt-big-round-ptn margin-top-30 margin-bottom-xlg-80 tt-anim-fadeinup">
-										<a href="{{route("contactus")}}" class="tt-big-round-ptn-holder tt-magnetic-item">
-											<div class="tt-big-round-ptn-inner">Let's<br> Connect!</div>
-										</a>
-									</div>
-									<!-- End big round button -->
-
-								</div> <!-- /.tt-col -->
-							</div><!-- /.tt-row --> 
-
+						
+							
+							<!-- End tt-image -->
+							
 						</div> <!-- /.tt-section-inner -->
 					</div>
 					<!-- End tt-section -->
 
 
 				</div>
-				<!-- End page content -->
- --}}
 
 				<!-- ======================
 				///// Begin tt-footer /////

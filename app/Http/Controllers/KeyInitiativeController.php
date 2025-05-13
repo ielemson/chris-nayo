@@ -27,9 +27,9 @@ public function store(Request $request)
 
 $data = $request->validate([
     'title' => 'required|string|max:255',
-    'description' => 'required|string|max:255',
-    'impact' => 'nullable|string|max:255',
-    'project_link' => 'nullable|string|max:255',
+    'description' => 'required|string',
+    'impact' => 'nullable|string',
+    'project_link' => 'nullable|string',
     'year' => 'nullable|string|max:255',
     'slug' => 'nullable|string',
     'status' => 'required|in:published,draft',
@@ -68,11 +68,11 @@ public function update(Request $request, $slug)
 {
 $keyInitiative = KeyInitiative::where('slug', $slug)->firstOrFail();
 $data = $request->validate([
-    'title' => 'required|string|max:255',
-    'description' => 'required|string|max:255',
-    'project_link' => 'required|string|max:255',
-    'impact' => 'nullable|string|max:255',
-    'year' => 'nullable|string|max:255',
+    'title' => 'required|string',
+    'description' => 'required|string',
+    'project_link' => 'required|string',
+    'impact' => 'nullable|string',
+    'year' => 'nullable|string',
     'slug' => 'nullable|string',
     'status' => 'required|in:published,draft',
     'banner' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
