@@ -34,6 +34,9 @@ Team
                     
                             </div>
                         </div>
+                        <label for="about">Excerpt:</label>
+                        <textarea name="excerpt" class="form-control @error('excerpt') is-invalid @enderror"  rows="4">{{ old('excerpt', $teamProfile->excerpt ?? '') }}</textarea>
+                    
                         <label for="about">About:</label>
                         <textarea name="about" class="form-control @error('about') is-invalid @enderror" id="summernote" rows="4">{{ old('about', $teamProfile->about ?? '') }}</textarea>
                     

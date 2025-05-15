@@ -94,7 +94,7 @@ Create Key Initiative
             $('.summernote').summernote({
                 placeholder: 'Please ensure to paste from MS word, Notepad. Avoid pasting directly from other websites.',
                 tabsize: 2,
-                height: 300,
+                height: 150,
                 toolbar: [
                     ['style', ['style']],
                     ['font', ['bold', 'underline', 'clear']],

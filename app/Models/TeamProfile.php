@@ -20,6 +20,7 @@ class TeamProfile extends Model
         'picture',
         'facebook',
         'instagram',
+        'excerpt',
         'twitter',
     ];
 }

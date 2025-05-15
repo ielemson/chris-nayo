@@ -26,7 +26,7 @@
             <div class="tt-col-lg-8 tt-align-self-center">
 
                 <div class="text-xlg font-400 tt-text-reveal" style="text-align:justify">
-                   {{ Str::limit($team->about, 550) }}
+                   {{ Str::limit($team->excerpt, 550) }}
                 </div>
 
                 <a href="{{route("aboutme")}}" class="tt-btn tt-btn-outline margin-top-40 tt-magnetic-item tt-anim-fadeinup">
