@@ -11,9 +11,9 @@
                 </div>
                 <!-- End tt-Heading -->
 
-                <div class="tt-text-uppercase max-width-400 margin-left-xlg-10-p text-pretty tt-text-reveal">
+                {{-- <div class="tt-text-uppercase max-width-400 margin-left-xlg-10-p text-pretty tt-text-reveal">
                     Please explore my selected projects below. Click on each one for an overview
-                </div>
+                </div> --}}
 
             </div> <!-- /.tt-col -->
 
@@ -21,11 +21,11 @@
 
                 <!-- Begin big round button
                 ============================ -->
-                <div class="tt-big-round-ptn tt-anim-fadeinup">
+                {{-- <div class="tt-big-round-ptn tt-anim-fadeinup">
                     <a href="javascript:;" class="tt-big-round-ptn-holder tt-magnetic-item">
                         <div class="tt-big-round-ptn-inner">All<br> Projects</div>
                     </a>
-                </div>
+                </div> --}}
                 <!-- End big round button -->
 
             </div> <!-- /.tt-col -->
@@ -44,14 +44,14 @@
              
                    <!-- Begin portfolio compact list item
                  ======================================= -->
-                <a href="{{route("key_initiative.details",$keyinitiative->slug)}}" class="pcli-item tt-anim-fadeinup" data-cursor="View<br>Project">
+                <a href="{{route("key_initiative.details",$keyinitiative->slug)}}" class="pcli-item tt-anim-fadeinup">
                     <div class="pcli-item-inner">
-                        <div class="pcli-col pcli-col-image">
+                        {{-- <div class="pcli-col pcli-col-image">
                             <div class="pcli-image">
                                 <!-- Note: The recommended maximum image width is 800px -->
                                 <img src="{{asset("assets/images/keyinitiative/$keyinitiative->banner")}}" loading="lazy" alt="Image">
                             </div> <!-- /.pcli-image -->
-                        </div> <!-- /.pcli-col -->
+                        </div> <!-- /.pcli-col --> --}}
 
                         <div class="pcli-col pcli-col-count">
                             <div class="pcli-count"></div>

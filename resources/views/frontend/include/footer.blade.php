@@ -6,10 +6,10 @@
                 <div class="tt-footer-widget">
                     <h5 class="tt-footer-widget-heading">Links</h5>
                     <ul class="tt-footer-widget-list">
-                        <li><a href="javascript:;" class="tt-link">Support</a></li>
-                        <li><a href="javascript:;" class="tt-link">Licenses</a></li>
-                        <li><a href="javascript:;" class="tt-link">Terms of Use</a></li>
-                        <li><a href="javascript:;" class="tt-link">Privacy Policy</a></li>
+                        <li><a href="javascript:;" class="tt-link">Press & Media</a></li>
+                        <li><a href="javascript:;" class="tt-link">Project</a></li>
+                        <li><a href="javascript:;" class="tt-link">Media</a></li>
+                        <li><a href="javascript:;" class="tt-link">Vision & Miss</a></li>
                     </ul> <!-- /.tt-footer-widget-list -->
                 </div> <!-- /.tt-footer-widget -->
             </div> <!-- /.tt-col -->
@@ -18,10 +18,10 @@
                 <div class="tt-footer-widget">
                     <h5 class="tt-footer-widget-heading">Sitemap</h5>
                     <ul class="tt-footer-widget-list">
-                        <li><a href="javascript:;" class="tt-link">About Me</a></li>
-                        <li><a href="javascript:;" class="tt-link">My Work</a></li>
-                        <li><a href="javascript:;" class="tt-link">Services</a></li>
+                        <li><a href="javascript:;" class="tt-link">About Christopher</a></li>
                         <li><a href="javascript:;" class="tt-link">Contact</a></li>
+                        <li><a href="javascript:;" class="tt-link">Events & Conferences</a></li>
+                        <li><a href="javascript:;" class="tt-link">Work Experience</a></li>
                     </ul> <!-- /.tt-footer-widget-list -->
                 </div> <!-- /.tt-footer-widget -->
             </div> <!-- /.tt-col -->
@@ -82,7 +82,7 @@
                             <div class="tt-footer-copyright">
                                 © <span class="tt-copyright-year"></span> <a
                                     href="javascript:;" class="tt-link" target="_blank"
-                                    rel="nofollow noopener">My Portfolio</a><br>
+                                    rel="nofollow noopener"> <br> Christopher Kwaku Addy-Nayo.</a><br>
                                 All Rights Reserved
                             </div> <!-- /.tt-footer-copyright -->
                         </li>

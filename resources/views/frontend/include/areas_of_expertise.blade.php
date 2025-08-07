@@ -12,9 +12,9 @@
                     </div>
                     <!-- End tt-Heading -->
 
-                    <div class="tt-text-uppercase max-width-400 margin-bottom-20 text-pretty tt-text-reveal">
+                    {{-- <div class="tt-text-uppercase max-width-400 margin-bottom-20 text-pretty tt-text-reveal">
                        Leverage global experience and expertise in policy development, capacity building, and community empowerment to drive impactful, sustainable change.
-                    </div>
+                    </div> --}}
 
                 </div> <!-- /.tt-col -->
 
